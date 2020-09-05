@@ -546,6 +546,7 @@ body.stretched #header.full-header .container {
 #primary-menu ul li > a span {
   display: none;
 }
+
 #primary-menu ul li > a i {
   position: relative;
   top: -1px;
@@ -809,11 +810,7 @@ body:not(.device-touch) #page-menu nav li a {
 #page-menu ul ul li:hover a {
   background-color: rgba(0, 0, 0, 0.3);
 }
-@media (min-width: 992px) {
-  #header-trigger {
-    display: none;
-  }
-}
+
 .body-overlay {
   opacity: 0;
   position: fixed;
@@ -875,8 +872,8 @@ body:not(.device-touch) #page-menu nav li a {
   font-size: 19px;
 }
 .slider-caption.slider-caption-right {
-  left: auto;
   right: 15px;
+  text-align: center;
 }
 .slider-caption.slider-caption-center {
   position: relative;
@@ -1374,7 +1371,8 @@ body:not(.device-touch) .entry-link {
 }
 .post-grid.grid-3 .entry {
   width: 33.33333333%;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .post-grid.grid-3 .entry-title h2 {
   font-size: 18px;
