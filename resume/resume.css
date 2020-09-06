@@ -495,4 +495,7 @@
   .skill-area .skill-info {
     border-left: none;
   }
+  .font-body {
+    font-size: 70px;
+  }
 }

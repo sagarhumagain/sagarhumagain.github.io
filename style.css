@@ -112,11 +112,7 @@ h5 > span:not(.nocolor):not(.badge),
 h6 > span:not(.nocolor):not(.badge) {
   color: #1abc9c;
 }
-address,
-p,
-ul {
-  margin-bottom: 30px;
-}
+
 small {
   font-family: Lato, sans-serif;
 }
